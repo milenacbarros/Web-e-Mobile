@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'fonte';
+    src: url('RetroCool-Regular.woff') format('woff');
+    
+}
+body {
+    font-family: 'fonte', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('billieWpp.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.fundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    z-index: -1;
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+h1 {
+    font-family: 'fonte';
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 8px 8px 16px #05e21880;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;
+    text-shadow: 4px 4px 8px #05e21880;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+i {
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 8px 8px 16px rgba(5, 226, 24, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(5, 226, 24, 0.5);
+}
+
+a:hover {
+    text-decoration: underline;
+}
